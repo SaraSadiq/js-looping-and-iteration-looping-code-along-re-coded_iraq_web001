@@ -7,7 +7,7 @@ function writeCards(name,events){
   }
   return thank;
 }
-thank=writeCards(["Ada", "Brendan", "Ali"], "surprise");
+writeCards(["Ada", "Brendan", "Ali"], "surprise");
 
 let countup = 10;
 function countDown(countup){

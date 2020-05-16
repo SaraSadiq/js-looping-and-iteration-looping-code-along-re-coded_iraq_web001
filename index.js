@@ -5,7 +5,8 @@ function writeCards(name,events){
   }
   return name,events;
 }
-writeCards(name,"surprise")
+writeCards(["Ada", "Brendan", "Ali"], "birthday");
+
 let countup = 10;
 function countDown(countup){
 while (countup >= 0 ) {

@@ -1,12 +1,12 @@
-const name= ["Lisa", "Kaitlin", "Jan"];
+const names= ["Lisa", "Kaitlin", "Jan"];
 const events="surprise";
 function writeCards(name,events){
-for (let i=0;i<name.length;i++){
+for (let i=0;i<names.length;i++){
   console.log(`Thank you, ${name[i]}, for the wonderful ${events} gift!`);
 }
-return  (name, events);
+return  (names, events);
 }
-writeCards(name,events)
+writeCards(names,events)
 
 let countup = 10;
 function countDown(countup){

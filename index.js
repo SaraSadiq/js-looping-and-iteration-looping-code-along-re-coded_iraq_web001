@@ -1,5 +1,5 @@
-const names= ["Lisa", "Kaitlin", "Jan"];
-const events="surprise";
+let names= ["Lisa", "Kaitlin", "Jan"];
+let events="surprise";
 function writeCards(name,events){
 for (let i=0;i<names.length;i++){
   console.log(`Thank you, ${name[i]}, for the wonderful ${events} gift!`);

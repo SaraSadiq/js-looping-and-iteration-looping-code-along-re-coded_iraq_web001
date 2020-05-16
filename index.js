@@ -3,7 +3,7 @@ function writeCards(name,events){
   let thank=[];
   for(let i=0;i<name.length;i++){
     console.log(`Thank you, ${name[i]}, for the wonderful ${events} gift!`);
-    
+
   }
   return name,events;
 }

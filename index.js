@@ -1,11 +1,13 @@
 
 function writeCards(name,events){
+  let thank=[];
   for(let i=0;i<name.length;i++){
     console.log(`Thank you, ${name[i]}, for the wonderful ${events} gift!`);
+    
   }
   return name,events;
 }
-writeCards(["Ada", "Brendan", "Ali"], "surprise");
+thank=writeCards(["Ada", "Brendan", "Ali"], "surprise");
 
 let countup = 10;
 function countDown(countup){

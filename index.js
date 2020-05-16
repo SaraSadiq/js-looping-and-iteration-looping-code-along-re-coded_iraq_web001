@@ -7,3 +7,13 @@ for (let i=0;i<name.length;i++){
 return name;
 }
 writeCards(name)
+
+
+let countup = 10;
+function countDown(countup){
+while (countup >= 0 ) {
+  console.log(countup--);
+}
+return countup;
+}
+countDown(countup)
